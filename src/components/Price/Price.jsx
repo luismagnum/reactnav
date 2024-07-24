@@ -20,7 +20,7 @@ const Price = () => {
           </div>
         </div>
         <button className='mt-4'>
-        <a href="https://wa.me/542984792639?text=Hola quiero hacer un pedido" target="_blank"><span className='text-base text-teal-500  hover:text-teal-700 font-bold'>Encargar</span></a>
+        <a href="https://wa.me/542984792639?text=Hola quiero hacer un pedido" target="_blank"><span className='text-2xl text-teal-500  hover:text-teal-700 font-bold'>Encargar</span></a>
         </button>
       </div>
       <div className="card">
@@ -36,7 +36,7 @@ const Price = () => {
           </div>
         </div>
         <button className='mt-4'>
-        <a href="https://wa.me/542984792639?text=Hola quiero hacer un pedido" target="_blank"><span className='text-base text-teal-500  hover:text-teal-700 font-bold'>Encargar</span></a>
+        <a href="https://wa.me/542984792639?text=Hola quiero hacer un pedido" target="_blank"><span className='text-2xl text-teal-500  hover:text-teal-700 font-bold'>Encargar</span></a>
         </button>
       </div>
       <div className="card">
@@ -52,7 +52,7 @@ const Price = () => {
           </div>
         </div>
         <button className='mt-4'>
-        <a href="https://wa.me/542984792639?text=Hola quiero hacer un pedido" target="_blank"><span className='text-base text-teal-500  hover:text-teal-700 font-bold'>Encargar</span></a>
+        <a href="https://wa.me/542984792639?text=Hola quiero hacer un pedido" target="_blank"><span className='text-2xl text-teal-500  hover:text-teal-700 font-bold'>Encargar</span></a>
         </button>
       </div>
       <div className="card">
@@ -67,7 +67,7 @@ const Price = () => {
           </div>
         </div>
         <button className='mt-4'>
-        <a href="https://wa.me/542984792639?text=Hola quiero hacer un pedido" target="_blank"><span className='text-base text-teal-500  hover:text-teal-700 font-bold'>Encargar</span></a>
+        <a href="https://wa.me/542984792639?text=Hola quiero hacer un pedido" target="_blank"><span className='text-2xl text-teal-500  hover:text-teal-700 font-bold'>Encargar</span></a>
         </button>
       </div>
       <div className="card">
@@ -83,7 +83,7 @@ const Price = () => {
           </div>
         </div>
         <button className='mt-4'>
-        <a href="https://wa.me/542984792639?text=Hola quiero hacer un pedido" target="_blank"><span className='text-base text-teal-500  hover:text-teal-700 font-bold'>Encargar</span></a>
+        <a href="https://wa.me/542984792639?text=Hola quiero hacer un pedido" target="_blank"><span className='text-2xl text-teal-500  hover:text-teal-700 font-bold'>Encargar</span></a>
         </button>
       </div>
       <div className="card">
@@ -99,7 +99,7 @@ const Price = () => {
           </div>
         </div>
         <button className='mt-4'>
-        <a href="https://wa.me/542984792639?text=Hola quiero hacer un pedido" target="_blank"><span className='text-base text-teal-500 hover:text-teal-700 font-bold'>Encargar</span></a>
+        <a href="https://wa.me/542984792639?text=Hola quiero hacer un pedido" target="_blank"><span className='text-2xl text-teal-500 hover:text-teal-700 font-bold'>Encargar</span></a>
         </button>
       </div>
     </div>
