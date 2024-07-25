@@ -6,7 +6,7 @@ import { FaInstagramSquare } from "react-icons/fa";
 
 const Footer = () => {
   return (
-    <footer className='bg-gray-900 text-white'>
+    <div className='bg-gray-900 text-white'>
       <div className='md:flex md:justify-between md:items-center sm:px-12 px-4 bg-gray-900 py-7 '>
         <h1 className='ml-4 lg:text-4xl text-3xl md:mb-0 mb-6 lg:leading-normal font-semibold md:w-2/5'>
         <span className='text-primary'>Listo </span>
@@ -36,7 +36,7 @@ const Footer = () => {
         </div>
       </div>
       </div>
-    </footer>
+    </div>
   )
 }
 
