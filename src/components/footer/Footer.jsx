@@ -13,7 +13,7 @@ const Footer = () => {
         para hacer tu pedido
         </h1>
         <div className='flex flex-wrap'>
-          <button className='bg-teal-400 hover:bg-teal-700 duration-500 px-4 py-2.5 font-[Poppins]
+          <button className='bg-primary hover:bg-primaryDark duration-500 px-4 py-2.5 
           rounded-md text-white font-bold w-full'>
             <a href="https://wa.me/542984792639?text=Hola quiero hacer un pedido" target="_blank">WhatsApp</a>
           </button>

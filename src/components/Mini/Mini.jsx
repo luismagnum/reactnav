@@ -16,7 +16,7 @@ const Mini = () => {
                         <p className='text-base text-gray-800 font-medium mt-4'>Congelados y listos para freir.</p>
                         <p className='text-base text-gray-800 font-medium mt-4'>Instrucciones para cocinar,</p>
                         <p className='text-base text-gray-800 font-medium mt-4'>Los sirves calienticos.</p>
-                        <button className='text-center items-center text-white bg-teal-400 hover:bg-teal-700 font-bold px-3 py-2 rounded mt-6 mb-10 duration-500'>
+                        <button className='text-center items-center text-white bg-primary hover:bg-primaryDark font-bold px-3 py-2 rounded mt-6 mb-10 duration-500'>
                         <a href="https://wa.me/542984792639?text=Hola quiero hacer un pedido" target="_blank">WhatsApp</a>
                         </button>
                     </div>
