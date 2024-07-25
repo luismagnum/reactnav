@@ -13,9 +13,8 @@ const Footer = () => {
         para hacer tu pedido
         </h1>
         <div className='flex items-center justify-center'>
-          <button className='text-center items-center bg-primary hover:bg-primaryDark md:mr-2 px-6 py-3 
-          rounded-md text-white font-bold '>
-            <a href="https://wa.me/542984792639?text=Hola quiero hacer un pedido" target="_blank"><span className='text-base text-white  hover:text-teal-700 font-bold'>WhatsApp</span></a>
+          <button className='text-center items-center md:mr-2 px-6 py-3 rounded-md text-white bg-primary hover:bg-primaryDark font-bold '>
+            <a href="https://wa.me/542984792639?text=Hola quiero hacer un pedido" target="_blank"><span className='text-base text-white font-bold'>WhatsApp</span></a>
           </button>
         </div>
       </div>
