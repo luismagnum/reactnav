@@ -17,7 +17,7 @@ const Navar = () => {
   return (
     <div className='fixed w-full z-50'>
       <div>
-        <div className='flex flex-row justify-between p-5 md:px-32 px-5 bg-primary/45 text-white shadow-[0_3px_10px_rgba(0,0,0,0.3)]'>
+        <div className='flex flex-row justify-between p-5 md:px-32 px-5 bg-primary text-white shadow-[0_3px_10px_rgba(0,0,0,0.3)]'>
             <div className='flex flex-row items-center cursor-pointer'>
                 <span>
                     <img src={logo} alt='' width={50}/>
