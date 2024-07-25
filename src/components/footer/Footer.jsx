@@ -28,7 +28,7 @@ const Footer = () => {
       <div className='text-center items-center'>
       <div className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 text-center items-center justify-center pt-2 text-gray-400 text-sm scroll-pb-8'>
         <span>@Sabores de Venezuela 2024<br></br>
-        Dev Luis E. Diaz</span>
+        Dev Luis Enrique Diaz</span>
         <div className='flex items-center justify-center mx-auto'>
             <button className='grid grid-cols-1'>
               <a className='flex text-center text-primary font-semibold text-2xl hover:text-primaryDark mb-20' href='./'>HOME</a>
