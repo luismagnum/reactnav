@@ -55,13 +55,12 @@ const Hero = () => {
                 className='group-hover:translate-x-2 transition'/>
                 </motion.button>
                 {/* features section here */}
-                <div className='bg-black/40 p-6 space-y-2 lg:max-w-[350px] !mt-[60px]'>
+                <div className='bg-black/40 p-6 space-y-2 lg:max-w-[350px] !mt-[60px] mx-2'>
                 <h1 className='text-xl uppercase'>Tequeños</h1>
-                <p className='text-xs leading-loose'>
+                <p className='text-xs md:text-sm leading-loose text-justify'>
                 Los tequeños son una de las delicias más emblemáticas de la gastronomía venezolana.
                 Consisten en tiras de queso fresco envueltas en una masa suave y crujiente, luego fritas
-                hasta alcanzar un dorado perfecto. Originarios de Venezuela, estos bocadillos se sirven 
-                comúnmente como aperitivos en fiestas, reuniones y celebraciones. 
+                hasta alcanzar un dorado perfecto.
                 </p>
                 </div>
                 </div>

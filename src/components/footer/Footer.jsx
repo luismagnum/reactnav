@@ -10,11 +10,11 @@ const Footer = () => {
       <div className='md:flex md:justify-between md:items-center sm:px-12 px-4 bg-gray-900 py-7 '>
         <h1 className='ml-4 lg:text-4xl text-3xl md:mb-0 mb-6 lg:leading-normal font-semibold md:w-2/5'>
         <span className='text-primary'>Listo </span>
-        para hacer tu pedido
+        para hacer tu pedido<span className='text-primary'>...</span>
         </h1>
-        <div className='flex items-center justify-center'>
-          <button className='text-center items-center md:mr-2 px-6 py-3 rounded-md text-white bg-primary hover:bg-teal-400 font-bold'>
-            <a href="https://wa.me/542984792639?text=Hola quiero hacer un pedido" target="_blank"><span className='text-base text-white'>WhatsApp</span></a>
+        <div className='flex items-center justify-center mx-2'>
+          <button className='w-full text-center items-center md:mr-2 px-6 py-2 rounded-md text-white bg-primary hover:bg-teal-400 font-bold md:mt-8 cursor-pointer'>
+            <a href="https://wa.me/542984792639?text=Hola quiero hacer un pedido" target="_blank"><span className='text-xl px-8 md:text-base text-primaryDark'>Click aqui</span></a>
           </button>
         </div>
       </div>
