@@ -1,4 +1,5 @@
 import './App.css'
+import Delivery from './components/Delivery'
 import Empanadas from './components/Empanadas/Empanadas'
 import Footer from './components/footer/Footer'
 import Hero from './components/Hero/Hero'
@@ -28,6 +29,7 @@ function App() {
       </div>
       <Scroll />
       <Price />
+      <Delivery />
       <Footer />
     </main>
   )
