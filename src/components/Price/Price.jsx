@@ -6,7 +6,7 @@ const Price = () => {
     <div className='mb-10'>
       <h3 className='text-3xl text-gray-600 font-bold text-center mt-5 mb-8'>Precios</h3>
     <div className='flex justify-center'>
-    <div className='grid grid-cols-1 md:grid-cols-3'>
+    <div className='grid grid-cols-1 md:grid-cols-3 md:gap-8'>
       <div className="card">
         <div className="content">
           <div className="title">Empanadas</div>
