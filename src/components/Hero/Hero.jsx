@@ -52,15 +52,14 @@ const Hero = () => {
                  className='outline-btn flex justify-center items-center gap-4 group'>
                   <a href="https://wa.me/542984792639?text=Hola quiero hacer un pedido" target="_blank"><span className='text-2xl font-bold bg-primary/70 hover:bg-primary/35 px-4 py-2.5 rounded-lg'>Encargar</span></a>
                 <BsWhatsapp
-                className='group-hover:translate-x-2 transition'/>
+                className='group-hover:translate-x-2 transition size-8'/>
                 </motion.button>
                 {/* features section here */}
                 <div className='bg-black/40 p-6 space-y-2 lg:max-w-[350px] !mt-[60px] mx-2'>
                 <h1 className='text-xl uppercase'>Tequeños</h1>
                 <p className='text-xs md:text-sm leading-loose text-justify'>
                 Los tequeños son una de las delicias más emblemáticas de la gastronomía venezolana.
-                Consisten en tiras de queso fresco envueltas en una masa suave y crujiente, luego fritas
-                hasta alcanzar un dorado perfecto.
+                Consisten en tiras de queso fresco envueltas en una masa suave y crujiente, fritas.
                 </p>
                 </div>
                 </div>

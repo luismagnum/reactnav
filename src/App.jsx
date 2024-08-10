@@ -1,4 +1,5 @@
 import './App.css'
+import Boton from './components/Boton'
 import Delivery from './components/Delivery'
 import Empanadas from './components/Empanadas/Empanadas'
 import Footer from './components/footer/Footer'
@@ -12,7 +13,7 @@ import TextSlider from './components/slide/TextSlider'
 
 function App() {
   return (
-    <main>
+    <main className="relative min-h-screen">
       <div id='home'>
       <Navar />
       </div>
@@ -31,6 +32,7 @@ function App() {
       <Price />
       <Delivery />
       <Footer />
+      <Boton />
     </main>
   )
 }
