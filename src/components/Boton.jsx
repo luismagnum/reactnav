@@ -10,7 +10,7 @@ const Boton = () => {
       target="_blank"
       rel="noopener noreferrer"
     >
-      <FontAwesomeIcon icon={faWhatsapp} size="lg" />
+      <FontAwesomeIcon icon={faWhatsapp} className= 'size-6' />
     </a>
   );
 };
