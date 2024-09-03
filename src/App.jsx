@@ -6,6 +6,7 @@ import Footer from './components/footer/Footer'
 import Hero from './components/Hero/Hero'
 import Mini from './components/Mini/Mini'
 import Navar from './components/Navar/Navar'
+import PaymentMethods from './components/PaymentMethods/PaymentMethods'
 import Price from './components/Price/Price'
 import Product from './components/product/Product'
 import Scroll from './components/Scroll'
@@ -31,6 +32,7 @@ function App() {
       <Scroll />
       <Price />
       <Delivery />
+      <PaymentMethods />
       <Footer />
       <Boton />
     </main>
