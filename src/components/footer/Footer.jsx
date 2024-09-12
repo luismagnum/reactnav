@@ -2,25 +2,29 @@ import React from 'react'
 import { FaWhatsappSquare } from "react-icons/fa";
 import { FaFacebookSquare } from "react-icons/fa";
 import { FaInstagramSquare } from "react-icons/fa";
+import whatsap from '../../assets/whatsapp-fill.svg';
 
 
 const Footer = () => {
   return (
     <div className='bg-gray-900 text-white'>
       <div className='md:flex md:justify-between md:items-center sm:px-12 px-4 bg-gray-900 py-7 '>
-        <h1 className='ml-4 lg:text-4xl text-3xl md:mb-0 mb-6 lg:leading-normal font-semibold md:w-2/5'>
+        <h1 className='ml-4 md:ml-20 lg:text-4xl text-3xl md:mb-0 mb-6 lg:leading-normal font-semibold md:w-2/5'>
         <span className='text-primary'>Listo </span>
         para hacer tu pedido<span className='text-primary'>...</span>
         </h1>
         <div className='flex items-center justify-center mx-2'>
-          <button className='w-full text-center items-center md:mr-2 px-6 py-2 rounded-md text-white bg-primary hover:bg-teal-400 font-bold md:mt-8 cursor-pointer'>
-            <a href="https://wa.me/542984792639?text=Hola quiero hacer un pedido" target="_blank"><span className='text-xl px-8 md:text-base text-primaryDark'>Click aqui</span></a>
-          </button>
+        <button className="inline-block font-semibold tracking-wide border-none justify-center text-center bg-gray-500 hover:text-teal-500 duration-300 px-3 py-2 font-[Poppins] rounded-xl md:mr-20 md:rounded-md  md: text-white w-full md:w-auto">
+        <a href="https://wa.me/542984792639?text=Hola quiero hacer un pedido" target="_blank" className="flex items-center justify-center space-x-2">
+        <img src={whatsap} alt="what" width="30px" height="30px" className='flex-shrink-0'/>
+        <span className='font-bold sm:text-sm md:text-xl'>Click aqui</span>
+        </a>
+        </button>
         </div>
       </div>
       <div className='flex justify-center items-center py-6'>
       <button className='flex gap-4 mx-32'>
-            <a className="text-primary text-4xl hover:text-primaryDark " href="https://wa.me/542984792639?text=Hola quiero hacer un pedido " target="_blank"><FaWhatsappSquare /></a>
+            <a className="text-primary text-4xl hover:text-primaryDark" href="https://wa.me/542984792639?text=Hola quiero hacer un pedido " target="_blank"><FaWhatsappSquare /></a>
             <a className="text-primary text-4xl hover:text-primaryDark" href="https://www.facebook.com/profile.php?id=100063541335021" target="_blank"><FaFacebookSquare /></a>
             <a className="text-primary text-4xl hover:text-primaryDark" href="https://www.instagram.com/saboresdevenezuela2020?igshid=NjlwNzlyMDk2Mg==" target="_blank"><FaInstagramSquare /></a>
           </button>
