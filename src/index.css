@@ -2,6 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+html{
+    scroll-behavior: smooth;
+  }
+
 /* src/index.css o donde tengas tus estilos globales */
 .no-scrollbar::-webkit-scrollbar {
     display: none;
