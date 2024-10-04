@@ -16,7 +16,7 @@ import TextSlider from './components/slide/TextSlider'
 
 function App() {
   return (
-    <main className="relative min-h-screen">
+    <main className="overflow-x-hidden">
       <div id='home'>
       <Navar />
       </div>
