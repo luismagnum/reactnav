@@ -73,7 +73,7 @@ const Price = () => {
       <div className="card">
         <div className="content">
           <div className="title">MiniTequeños</div>
-          <div className="price">$15000</div>
+          <div className="price">$17000</div>
           <div className="description">
             Hechos con harina de trigo.
             Cantidad 50 minitequeños.
