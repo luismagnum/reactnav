@@ -3,12 +3,19 @@ import { FaWhatsappSquare } from "react-icons/fa";
 import { FaFacebookSquare } from "react-icons/fa";
 import { FaInstagramSquare } from "react-icons/fa";
 import whatsap from '../../assets/whatsapp-fill.svg';
+import logo from '../../assets/logo.svg'
 
 
 const Footer = () => {
   return (
     <div className='bg-gray-900 text-white'>
-      <div className='md:flex md:justify-between md:items-center sm:px-12 px-4 bg-gray-900 py-7 '>
+      <div className="flex flex-col md:flex-row justify-center items-center text-center mx-auto py-4 mb-4">
+                <span>
+                    <img src={logo} alt='' width={50}/>
+                </span>
+      <h1 className="text-gray-600 text-xl md:text-3xl font-bold mb-4 text-center m-4">Sabores de Venezuela</h1>
+      </div>
+      <div className='md:flex md:justify-between md:items-center sm:px-12 px-4 bg-gray-900 py-4 '>
         <h1 className='ml-4 md:ml-20 lg:text-4xl text-3xl md:mb-0 mb-6 lg:leading-normal font-semibold md:w-2/5'>
         <span className='text-primary'>Listo </span>
         para hacer tu pedido<span className='text-primary'>...</span>
