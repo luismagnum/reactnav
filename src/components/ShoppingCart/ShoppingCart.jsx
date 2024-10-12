@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import logo from '../../assets/logo.svg';
+import car from '../../assets/car.png';
 
 const ShoppingCart = () => {
   const [cart, setCart] = useState([]);
@@ -74,12 +75,12 @@ const ShoppingCart = () => {
   };
 
   return (
-    <div className="p-6">
+    <div className="p-6 mx-8">
       <div className="flex flex-col md:flex-row justify-center items-center text-center mx-auto mb-6">
                 <span>
                     <img src={logo} alt='' width={50}/>
                 </span>
-      <h1 className="text-gray-600 text-2xl font-bold mb-4 text-center m-4">Sabores de Venezuela</h1>
+      <h1 className="text-gray-600 text-xl md:text-3xl font-bold mb-4 text-center m-4">Sabores de Venezuela</h1>
       </div>
       <h2 className="text-xl font-bold mb-6 text-center mt-2">Calcular tu pedido</h2>
       
@@ -89,7 +90,7 @@ const ShoppingCart = () => {
             <h2 className="text-xl font-bold">{product.name}</h2>
             <p className="text-gray-800 font-semibold">${product.price}</p>
             <button
-              className="mt-2 px-4 py-2 bg-[#04051dea] text-[#2194f2] rounded hover:text-teal-200 w-full"
+              className="mt-2 px-4 py-2 bg-[#04051dea] text-[#2194f2] rounded-lg hover:text-teal-200"
               onClick={() => addToCart(product)}
             >
               Añadir al carrito
@@ -99,17 +100,22 @@ const ShoppingCart = () => {
       </div>
 
       <div className="border-t-2 pt-4">
-        <h2 className="text-xl font-bold md:ml-10 mb-2">Carrito de Compras</h2>
+      <div className='flex flex-row ml-6'>
+          <span>
+            <img src={car} alt='' width={20} className='mt-1 ml-6 md:ml-28'/>
+          </span>
+        <h2 className="text-xl font-bold ml-2 mb-2">Carrito de Compras</h2>
+        </div>
         {cart.length === 0 ? (
-          <p className="text-gray-800 md:ml-10">El carrito está vacío</p>
+          <p className="text-gray-950 font-semibold ml-16 md:ml-36">El carrito está vacío</p>
         ) : (
           <ul className="space-y-4">
             {cart.map((item) => (
               <li key={item.id} className="flex flex-col md:flex-row justify-between items-center">
-                <div className="text-center md:ml-10 md:text-left">
+                <div className="text-center md:ml-36 md:text-left">
                   {item.name} - ${item.price} x {item.quantity}
                 </div>
-                <div className="flex items-center mt-2 md:mr-10 md:mt-0">
+                <div className="flex items-center mt-2 md:mr-36 md:mt-0">
                   <button
                     className="px-2 py-1 bg-red-500 text-white rounded"
                     onClick={() =>

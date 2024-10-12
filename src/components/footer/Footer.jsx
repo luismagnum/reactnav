@@ -23,19 +23,20 @@ const Footer = () => {
         </div>
       </div>
       <div className='flex justify-center items-center py-6'>
-      <button className='flex gap-4 mx-32'>
+      <button className='flex gap-4 justify-center md:mx-32'>
             <a className="text-primary text-4xl hover:text-primaryDark" href="https://wa.me/542984792639?text=Hola quiero hacer un pedido " target="_blank"><FaWhatsappSquare /></a>
             <a className="text-primary text-4xl hover:text-primaryDark" href="https://www.facebook.com/profile.php?id=100063541335021" target="_blank"><FaFacebookSquare /></a>
             <a className="text-primary text-4xl hover:text-primaryDark" href="https://www.instagram.com/saboresdevenezuela2020?igshid=NjlwNzlyMDk2Mg==" target="_blank"><FaInstagramSquare /></a>
           </button>
       </div>
       <div className='text-center items-center'>
-      <div className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 text-center items-center justify-center pt-2 text-gray-400 text-sm pb-8'>
+      <div className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 text-center items-center justify-center pt-2 text-gray-400 text-sm pb-8'>
         <span>@Sabores de Venezuela 2024<br></br>
-        Dev Luis Enrique Diaz</span>
+        Villa regina.Argentina<br></br>
+        <span className='text-teal-500'>Dev</span> Luis Enrique Diaz</span>
         <div className='flex items-center justify-center mx-auto'>
-            <button className='grid grid-cols-1'>
-              <a className='flex text-center text-primary font-semibold text-2xl hover:text-primaryDark mb-20' href='./'>HOME</a>
+            <button className='grid grid-cols-1 mb-10'>
+              <a className='flex text-center text-primary font-semibold text-2xl hover:text-primaryDark ' href='./'>HOME</a>
             </button>
         </div>
       </div>
