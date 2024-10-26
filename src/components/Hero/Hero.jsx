@@ -1,5 +1,5 @@
 import React from 'react';
-import imag2 from '../../assets/imagB.png';
+import imag2 from '../../assets/hallow.png';
 import survey from '../../assets/survey.png';
 import { BsWhatsapp } from "react-icons/bs";
 import { motion } from 'framer-motion';
