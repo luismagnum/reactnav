@@ -1,5 +1,5 @@
 import React from 'react';
-import imag2 from '../../assets/hallow.png';
+import imag2 from '../../assets/imagB.png';
 import survey from '../../assets/survey.png';
 import { BsWhatsapp } from "react-icons/bs";
 import { motion } from 'framer-motion';
@@ -65,7 +65,7 @@ const Hero = () => {
                 </div>
                 {/* imagen content section */}
                 <div className='relative'>
-                    <img src={imag2} alt="imagen1"
+                    <img src={imag2} alt="imagen2"
                     className='w-full relative z-30' />
                     <div className='absolute -top-5 left-0 z-[1]'>
                       <h1 className='text-[80px] md:text-[90px] font-bold text-red-200/10 leading-none'>Tequeños</h1>
