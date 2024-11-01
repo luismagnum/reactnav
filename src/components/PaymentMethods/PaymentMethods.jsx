@@ -8,8 +8,8 @@ import transferLogo from '../../assets/transfer.png';
 const PaymentMethods = () => {
   return (
     <div className="max-w-md mx-auto mt-8 p-4 bg-white shadow-md rounded-lg">
-      <h2 className="text-gray-800 text-xl font-bold text-center mb-4">Métodos de Pago</h2>
-      <h3 className='text-gray-800 text-xl font-bold text-center mb-2'>Te enviamos Link o Alias</h3>
+      <h2 className="text-gray-800 text-3xl font-bold text-center mb-4">Métodos de Pago</h2>
+      <h3 className='text-gray-800 text-xl font-bold text-center mt-2 mb-2'>Te enviamos Link o Alias</h3>
       <div className="flex flex-wrap justify-center gap-4">
         <img src={visaLogo} alt="Visa" className="h-12 w-auto" />
         <img src={masterCardLogo} alt="MasterCard" className="h-12 w-auto" />

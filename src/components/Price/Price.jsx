@@ -10,7 +10,7 @@ const Price = () => {
       <div className="card">
         <div className="content">
           <div className="title">Empanadas</div>
-          <div className="price">$14000</div>
+          <div className="price">$15000</div>
           <div className="description">
             Hechas con harina de maiz.
              Carne esmechada con queso.
@@ -26,13 +26,13 @@ const Price = () => {
       <div className="card">
         <div className="content">
           <div className="title">Tequeños</div>
-          <div className="price">$10000</div>
+          <div className="price">$11000</div>
           <div className="description">
             Hechos con harina de trigo.
              Son cocinados en aceite.
              Relleno de queso.
              Relleno de queso y jamon.
-             La delicia de grandes y chicos.
+             *Incluyen salsa de ajo*.
           </div>
         </div>
         <button className='mt-4'>
@@ -42,7 +42,7 @@ const Price = () => {
       <div className="card">
         <div className="content">
           <div className="title">Combos</div>
-          <div className="price">$13000</div>
+          <div className="price">$14000</div>
           <div className="description">
             Combo tropical que contiene:
              6 empanadas surtidas carne y pollo.
@@ -57,13 +57,13 @@ const Price = () => {
       </div>
       <div className="card">
         <div className="content">
-          <div className="title">Pastelitos</div>
-          <div className="price">$10000</div>
+          <div className="title">Salsa de Ajo</div>
+          <div className="price">$1200</div>
           <div className="description">
-            Hechos con harina de trigo.
-            Son cocinados en aceite.
-            Rellenos de carne molida con arroz.
-            Sazonados con finas especies. 
+            La salsa de ajo es un rico
+            aderezo preparado con ajo
+            mayonesa y cilandro. Ideal
+            para acompañar tus empanadas y tequeños.
           </div>
         </div>
         <button className='mt-4'>
@@ -89,7 +89,7 @@ const Price = () => {
       <div className="card">
         <div className="content">
           <div className="title">MiniCombo</div>
-          <div className="price">$10000</div>
+          <div className="price">$12000</div>
           <div className="description">
           Mini Combo que contiene:
           3 empanadas surtidas (3 carne o 3 pollo).

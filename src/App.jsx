@@ -32,7 +32,9 @@ function App() {
         <Mini />
       </div>
       <Scroll />
+      <div id= 'price'>
       <Price />
+      </div>
       <ShoppingCart />
       <PaymentMethods />
       <Delivery />

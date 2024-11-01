@@ -6,7 +6,6 @@ import tcuatro from '../../assets/tcuatro.png'
 
 const Product = () => {
   return (
-    <div>
         <div className='container max-w-5xl mx-auto px-8 md:px-6 mb-10'>
             <h3 className='text-3xl text-gray-600 font-bold text-center mt-5 mb-8'>Nuestros Tequeños</h3>
             <div className='md:grid md:grid-cols-4 md:grid-rows-2 md:gap-6 space-y-6 md:space-y-0'>
@@ -37,7 +36,6 @@ const Product = () => {
             </div>   
             </div>
         </div>
-    </div>
   )
 }
 
