@@ -10,7 +10,7 @@ const ShoppingCart = () => {
     { id: 1, name: 'Empanadas', price: 15000 },
     { id: 2, name: 'Empanadasx6', price: 7500 },
     { id: 3, name: 'Tequeños', price: 11000 },
-    { id: 4, name: 'Tequeñosx6', price: 5500 },
+    { id: 4, name: 'Combo Familiar', price: 20500 },
     { id: 5, name: 'Combo Tropical', price: 14000 },
     { id: 6, name: 'Combo Mini', price: 12000 },
   ];

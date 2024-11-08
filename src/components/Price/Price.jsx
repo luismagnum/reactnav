@@ -15,7 +15,7 @@ const Price = () => {
             Hechas con harina de maiz.
              Carne esmechada con queso.
              Pollo esmechado con queso.
-             Cordon blue.Rellenas de pollo
+             Cordon blue. Rellenas de pollo
              queso y jamon.
           </div>
         </div>
@@ -30,40 +30,9 @@ const Price = () => {
           <div className="description">
             Hechos con harina de trigo.
              Son cocinados en aceite.
-             Relleno de queso.
-             Relleno de queso y jamon.
+             Rellenos de queso o
+             Rellenos de queso y jamon.
              *Incluyen salsa de ajo*.
-          </div>
-        </div>
-        <button className='mt-4'>
-        <a href="https://wa.me/542984792639?text=Hola quiero hacer un pedido" target="_blank"><span className='text-2xl text-primary  hover:text-primaryDark font-bold'>Encargar</span></a>
-        </button>
-      </div>
-      <div className="card">
-        <div className="content">
-          <div className="title">Combos</div>
-          <div className="price">$14000</div>
-          <div className="description">
-            Combo tropical que contiene:
-             6 empanadas surtidas carne y pollo.
-             6 tequeños surtidos queso. 
-             1 salsa de ajo.
-             Ideal para 4 personas.
-          </div>
-        </div>
-        <button className='mt-4'>
-        <a href="https://wa.me/542984792639?text=Hola quiero hacer un pedido" target="_blank"><span className='text-2xl text-primary  hover:text-primaryDark font-bold'>Encargar</span></a>
-        </button>
-      </div>
-      <div className="card">
-        <div className="content">
-          <div className="title">Salsa de Ajo</div>
-          <div className="price">$1200</div>
-          <div className="description">
-            La salsa de ajo es un rico
-            aderezo preparado con ajo
-            mayonesa y cilandro. Ideal
-            para acompañar tus empanadas y tequeños.
           </div>
         </div>
         <button className='mt-4'>
@@ -75,7 +44,7 @@ const Price = () => {
           <div className="title">MiniTequeños</div>
           <div className="price">$17000</div>
           <div className="description">
-            Hechos con harina de trigo.
+          Hechos con harina de trigo.
             Cantidad 50 minitequeños.
             Ideales para fiestas y reuniones.
             Con un tamaño de 3cm.
@@ -88,12 +57,44 @@ const Price = () => {
       </div>
       <div className="card">
         <div className="content">
-          <div className="title">MiniCombo</div>
+          <div className="title">Combos</div>
+          <div className="price">$20500</div>
+          <div className="description">
+          COMBO FAMILIAR que contiene:
+             8 empanadas surtidas carne y pollo.
+             10 tequeños de queso. 
+             2 salsa de ajo.
+             Ideal para 4 personas.
+          </div>
+        </div>
+        <button className='mt-4'>
+        <a href="https://wa.me/542984792639?text=Hola quiero hacer un pedido" target="_blank"><span className='text-2xl text-primary  hover:text-primaryDark font-bold'>Encargar</span></a>
+        </button>
+      </div>
+      <div className="card">
+        <div className="content">
+          <div className="title">Combos</div>
+          <div className="price">$14000</div>
+          <div className="description">
+          COMBO TROPICAL que contiene:
+             6 empanadas surtidas carne y pollo.
+             6 tequeños de queso. 
+             1 salsa de ajo.
+             Ideal para 3 personas.
+          </div>
+        </div>
+        <button className='mt-4'>
+        <a href="https://wa.me/542984792639?text=Hola quiero hacer un pedido" target="_blank"><span className='text-2xl text-primary  hover:text-primaryDark font-bold'>Encargar</span></a>
+        </button>
+      </div>
+      <div className="card">
+        <div className="content">
+          <div className="title">Combos</div>
           <div className="price">$12000</div>
           <div className="description">
-          Mini Combo que contiene:
-          3 empanadas surtidas (3 carne o 3 pollo).
-          3 tequeños surtidos. 
+          MINI COMBO que contiene:
+          3 empanadas surtidas carne y pollo.
+          3 tequeños de queso. 
           1 salsa de ajo.
           Ideal para 2 personas.
           </div>
