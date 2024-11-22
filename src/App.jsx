@@ -13,6 +13,7 @@ import Product from './components/product/Product'
 import Scroll from './components/Scroll'
 import ShoppingCart from './components/ShoppingCart/ShoppingCart'
 import TextSlider from './components/slide/TextSlider'
+import Tres from './components/tres/Tres'
 
 function App() {
   return (
@@ -28,6 +29,7 @@ function App() {
       <div id= 'product'>
         <Product />
       </div>
+      <Tres />
       <div id= 'mini'>
         <Mini />
       </div>
