@@ -6,13 +6,12 @@ import tcuatro from '../../assets/tcuatro.png'
 
 const Product = () => {
   return (
-        <div className='container max-w-5xl mx-auto px-8 md:px-6 mb-10'>
+        <div className='text-center items-center max-w-5xl mx-auto px-8 md:px-9 mb-10'>
             <h3 className='text-3xl text-gray-600 font-bold text-center mt-5 mb-8'>Nuestros Tequeños</h3>
-            <div className='md:grid md:grid-cols-4 md:grid-rows-2 md:gap-6 space-y-6 md:space-y-0'>
+            <div className='md:grid md:grid-cols-4 md:grid-rows-2 md:gap-4 space-y-6 md:space-y-0'>
                 
             <div className='relative lg:col-span-2 lg:row-span-2 rounded-lg overflow-hidden'>
                 <div className='absolute bottom-0 pl-4 pb-4 text-black font-bold z-20'>
-                    
                 </div>
                 <img src={tuno} alt='survey' className='w-full h-full object-cover'/>
             </div>

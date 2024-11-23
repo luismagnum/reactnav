@@ -5,9 +5,8 @@ const Mini = () => {
   return (
     <div>
       <div>
-        <div className="container max-w-5xl mx-auto px-10 md:px-4 py-2 md:mt-10 mb-8">
-          <div className="flex flex-col-reverse lg:flex-row lg:gap-x-8 items-center">
-            {/* Texto */}
+        <div className="max-w-5xl mx-auto px-10 md:px-4 py-2 md:mt-10 mb-10">
+          <div className="flex flex-col-reverse lg:flex-row lg:gap-x-12 items-center">
             <div className="lg:pr-10 space-y-4">
               <div className="text-xl text-gray-800 font-medium md:text-base">50 unidades</div>
               <div className="text-3xl text-gray-600 font-bold">Mini-Tequeños</div>
@@ -26,12 +25,11 @@ const Mini = () => {
                 </p>
               </div>
             </div>
-            {/* Imagen */}
             <div>
               <img
                 src={imag5}
                 alt="Mini Tequeños"
-                className="w-80 md:w-[450px] rounded-lg"
+                className="w-80 md:w-[500px] rounded-lg"
               />
             </div>
           </div>

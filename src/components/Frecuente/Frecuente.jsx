@@ -19,15 +19,14 @@ const faqData = [
     },
 
 ]
-
 const Frecuente = () => {
   const [active, setActive] = useState(null)
   const handleClick = (index) =>{
     setActive(index === active ? null: index);
   };
   return (
-    <div className='max-w-2xl mx-auto mt-20 mb-28 px-6 md:px-8 py-4'>
-      <h1 className='text-2xl text-gray-800 text-center font-bold pb-8'>Preguntas frecuentes</h1>
+    <div className='max-w-5xl mx-auto mt-20 mb-28 px-6 md:px-8 py-4'>
+      <h1 className='text-3xl text-gray-800 text-center font-bold pb-8'>Preguntas frecuentes</h1>
      {faqData.map((item, index) =>(
         <div key={index}>
             <div className="flex justify-between items-center cursor-pointer py-4" 

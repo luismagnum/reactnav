@@ -75,7 +75,7 @@ const ShoppingCart = () => {
   };
 
   return (
-    <div className="p-6 mx-8">
+    <div className="text-center items-center max-w-5xl mx-auto px-8 mt-10 md:px-6 mb-10">
       <div className="flex flex-col md:flex-row justify-center items-center text-center mx-auto mb-6">
                 <span>
                     <img src={logo} alt='' width={50}/>
@@ -107,7 +107,7 @@ const ShoppingCart = () => {
         <h2 className="text-xl font-bold ml-2 mb-2">Carrito de Compras</h2>
         </div>
         {cart.length === 0 ? (
-          <p className="text-gray-950 font-semibold ml-16 md:ml-36">El carrito está vacío</p>
+          <p className="text-start text-green-700 font-semibold ml-16 md:ml-36">El carrito está vacío</p>
         ) : (
           <ul className="space-y-4">
             {cart.map((item) => (
