@@ -1,6 +1,6 @@
 import React from 'react'
 import imag3 from '../../assets/imag3.png'
-import imag4 from '../../assets/imag4.png'
+import imag4 from '../../assets/imag6.png'
 
 const Empanadas = () => {
   return (
