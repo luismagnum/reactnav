@@ -10,7 +10,7 @@ const Price = () => {
       <div className="card">
         <div className="content">
           <div className="title">Empanadas</div>
-          <div className="price">$15000</div>
+          <div className="price">$18000</div>
           <div className="description">
             Hechas con harina de maiz.
              Carne esmechada con queso.
@@ -26,7 +26,7 @@ const Price = () => {
       <div className="card">
         <div className="content">
           <div className="title">Tequeños</div>
-          <div className="price">$11000</div>
+          <div className="price">$12000</div>
           <div className="description">
             Hechos con harina de trigo.
              Son cocinados en aceite.
@@ -42,7 +42,7 @@ const Price = () => {
       <div className="card">
         <div className="content">
           <div className="title">MiniTequeños</div>
-          <div className="price">$17000</div>
+          <div className="price">$19000</div>
           <div className="description">
           Hechos con harina de trigo.
             Cantidad 50 minitequeños.
@@ -58,7 +58,7 @@ const Price = () => {
       <div className="card">
         <div className="content">
           <div className="title">Combos</div>
-          <div className="price">$20500</div>
+          <div className="price">$24000</div>
           <div className="description">
           COMBO FAMILIAR que contiene:
              8 empanadas surtidas carne y pollo.
@@ -74,7 +74,7 @@ const Price = () => {
       <div className="card">
         <div className="content">
           <div className="title">Combos</div>
-          <div className="price">$14000</div>
+          <div className="price">$16000</div>
           <div className="description">
           COMBO TROPICAL que contiene:
              6 empanadas surtidas carne y pollo.
@@ -90,7 +90,7 @@ const Price = () => {
       <div className="card">
         <div className="content">
           <div className="title">Combos</div>
-          <div className="price">$12000</div>
+          <div className="price">$14000</div>
           <div className="description">
           MINI COMBO que contiene:
           3 empanadas surtidas carne y pollo.
