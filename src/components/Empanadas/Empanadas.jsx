@@ -5,7 +5,7 @@ import imag4 from '../../assets/imag6.png'
 const Empanadas = () => {
   return (
     <div className='text-center items-center max-w-5xl mx-auto px-8 mt-10 md:px-6 mb-10'>
-        <h3 className='text-3xl text-gray-600 font-bold text-center mt-5 mb-10'>Nuestras Empanadas</h3>
+        <h3 className='text-3xl text-gray-800 font-bold text-center mt-5 mb-10'>Nuestras Empanadas</h3>
     <div className='flex items-center justify-center md:mr-8'>
         <div className='grid grid-cols-1 md:grid-cols-3'>
         <div className='lg:ml-auto mt-4 mb-4 lg:mb-0'>

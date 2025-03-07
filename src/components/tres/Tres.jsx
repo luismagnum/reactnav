@@ -8,7 +8,7 @@ const Tres = () => {
     <section className='text-center items-center max-w-5xl mx-auto px-8 mt-12 md:px-6 mb-10'>
         <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 gap-6">
         <div className='flex flex-col justify-center xl:pr-14'>
-                <h1 className='text-3xl font-bold text-gray-600'>Rica Torta tres Leches</h1>
+                <h1 className='text-3xl font-bold text-gray-800'>Rica Torta tres Leches</h1>
                 <p className='text-gray-800 mt-4 text-justify'>
                     Bizcocho bañado en tres leches: leche evaporada,
                     leche condensada y crema de leche.

@@ -9,7 +9,7 @@ const Mini = () => {
           <div className="flex flex-col-reverse lg:flex-row lg:gap-x-12 items-center">
             <div className="lg:pr-10 space-y-4">
               <div className="text-xl text-gray-800 font-medium md:text-base">50 unidades</div>
-              <div className="text-3xl text-gray-600 font-bold">Mini-Tequeños</div>
+              <div className="text-3xl text-gray-800 font-bold">Mini-Tequeños</div>
               <div className="text-xl text-gray-800 font-medium mt-2">
                 Ideales para fiestas y reuniones.
               </div>

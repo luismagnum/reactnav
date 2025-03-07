@@ -4,7 +4,7 @@ import car from '../../assets/car.png';
 
 const ShoppingCart = () => {
   const [cart, setCart] = useState([]);
-  const [showError, setShowError] = useState(false); // Estado para mostrar mensaje de error
+  const [showError, setShowError] = useState(false); 
 
   const products = [
     { id: 1, name: 'Empanadas', price: 18000 },
@@ -14,13 +14,11 @@ const ShoppingCart = () => {
     { id: 5, name: 'Combo Tropical', price: 16000 },
     { id: 6, name: 'Combo Mini', price: 14000 },
   ];
-
-  // Función para añadir productos al carrito
+  
   const addToCart = (product) => {
     const existingProduct = cart.find((item) => item.id === product.id);
 
     if (existingProduct) {
-      // Si el producto ya está en el carrito, incrementa la cantidad
       setCart(
         cart.map((item) =>
           item.id === product.id
@@ -29,12 +27,10 @@ const ShoppingCart = () => {
         )
       );
     } else {
-      // Si es un nuevo producto, agrégalo con cantidad 1
       setCart([...cart, { ...product, quantity: 1 }]);
     }
   };
 
-  // Función para actualizar la cantidad de productos
   const updateQuantity = (productId, newQuantity) => {
     setCart(
       cart.map((item) =>
@@ -43,22 +39,18 @@ const ShoppingCart = () => {
     );
   };
 
-  // Función para eliminar un producto del carrito si la cantidad es 0
   const removeFromCart = (productId) => {
     setCart(cart.filter((item) => item.id !== productId));
   };
 
-  // Calcular el total del carrito
   const calculateTotal = () => {
     return cart.reduce((total, product) => total + product.price * product.quantity, 0);
   };
 
-  // Enviar el pedido por WhatsApp
   const sendOrder = () => {
     if (cart.length === 0) {
-      // Si el carrito está vacío, mostrar mensaje de error
       setShowError(true);
-      setTimeout(() => setShowError(false), 2000); // Ocultar el mensaje después de 2 segundos
+      setTimeout(() => setShowError(false), 2000); 
       return;
     }
 
@@ -80,7 +72,7 @@ const ShoppingCart = () => {
                 <span>
                     <img src={logo} alt='' width={50}/>
                 </span>
-      <h1 className="text-gray-600 text-xl md:text-3xl font-bold mb-4 text-center m-4">Sabores de Venezuela</h1>
+      <h1 className="text-gray-800 text-xl md:text-3xl font-bold mb-4 text-center m-4">Sabores de Venezuela</h1>
       </div>
       <h2 className="text-xl font-bold mb-6 text-center mt-2">Calcular tu pedido</h2>
       

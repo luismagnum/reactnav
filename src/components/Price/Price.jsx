@@ -4,7 +4,7 @@ import './PriceStyle.css'
 const Price = () => {
   return (
     <div className='mb-10'>
-      <h3 className='text-3xl text-gray-600 font-bold text-center mt-5 mb-8'>Precios</h3>
+      <h3 className='text-3xl text-gray-800 font-bold text-center mt-5 mb-8'>Precios</h3>
     <div className='flex justify-center'>
     <div className='grid grid-cols-1 md:grid-cols-3 md:gap-8'>
       <div className="card">
@@ -60,7 +60,7 @@ const Price = () => {
           <div className="title">Combos</div>
           <div className="price">$24000</div>
           <div className="description">
-          COMBO FAMILIAR que contiene:
+          COMBO Familiar que contiene:
              8 empanadas surtidas carne y pollo.
              10 tequeños de queso. 
              2 salsa de ajo.
@@ -76,7 +76,7 @@ const Price = () => {
           <div className="title">Combos</div>
           <div className="price">$16000</div>
           <div className="description">
-          COMBO TROPICAL que contiene:
+          COMBO Tropical que contiene:
              6 empanadas surtidas carne y pollo.
              6 tequeños de queso. 
              1 salsa de ajo.
