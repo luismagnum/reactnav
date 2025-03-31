@@ -53,7 +53,7 @@ export default function Menu() {
         <span>
             <img src={logo} alt='' width={50}/>
         </span>
-        <h1 className="text-[#36180d] text-xl md:text-3xl font-bold mb-4 text-center m-4">Menu</h1>
+        <h1 className="text-[#36180d] text-xl md:text-3xl font-bold mb-4 text-center m-4">Nuestro Menu</h1>
     </div>
 
       <div className="space-y-4">
