@@ -8,11 +8,11 @@ const ShoppingCart = () => {
 
   const products = [
     { id: 1, name: 'Empanadas', price: 18000 },
-    { id: 2, name: 'Empanadasx6', price: 9000 },
-    { id: 3, name: 'Tequeños', price: 12000 },
-    { id: 4, name: 'Combo Familiar', price: 24000 },
-    { id: 5, name: 'Combo Tropical', price: 16000 },
-    { id: 6, name: 'Combo Mini', price: 14000 },
+    { id: 2, name: 'Tequeños', price: 12000 },
+    { id: 3, name: 'Combo Familiar', price: 24000 },
+    { id: 4, name: 'Combo Tropical', price: 16000 },
+    { id: 5, name: 'Combo Mini', price: 14000 },
+    { id: 6, name: 'TequeñoFiesta', price: 19000 },
   ];
   
   const addToCart = (product) => {
@@ -67,22 +67,23 @@ const ShoppingCart = () => {
   };
 
   return (
-    <div className="text-center items-center max-w-5xl mx-auto px-8 mt-10 md:px-6 mb-10">
+    <section className="bg-[#f1d06b]">
+    <div className="text-center items-center max-w-5xl mx-auto mt-6 px-8 md:px-6 mb-6">
       <div className="flex flex-col md:flex-row justify-center items-center text-center mx-auto mb-6">
                 <span>
                     <img src={logo} alt='' width={50}/>
                 </span>
-      <h1 className="text-gray-800 text-xl md:text-3xl font-bold mb-4 text-center m-4">Sabores de Venezuela</h1>
+      <h1 className="text-[#36180d] text-xl md:text-3xl font-bold mb-4 text-center m-4">Sabores de Venezuela</h1>
       </div>
-      <h2 className="text-xl font-bold mb-6 text-center mt-2">Calcular tu pedido</h2>
+      <h2 className="text-[#36180d] text-xl font-bold mb-6 text-center mt-2">Calcular tu pedido</h2>
       
       <div className="grid grid-cols-1 p-2 md:grid-cols-3 gap-4 mb-6">
         {products.map((product) => (
-          <div key={product.id} className="border rounded-lg text-center">
-            <h2 className="text-xl font-bold">{product.name}</h2>
-            <p className="text-gray-800 font-semibold">${product.price}</p>
+          <div key={product.id} className=" rounded-lg text-center">
+            <h2 className="text-[#36180d] text-xl font-bold">{product.name}</h2>
+            <p className="text-[#36180d] font-semibold">${product.price}</p>
             <button
-              className="mt-2 px-4 py-2 bg-[#04051dea] text-[#2194f2] rounded-lg hover:text-teal-200"
+              className="mt-2 px-4 py-2 bg-[#FFC107] text-[#36180d] font-bold rounded-lg hover:text-teal-200"
               onClick={() => addToCart(product)}
             >
               Añadir al carrito
@@ -91,20 +92,20 @@ const ShoppingCart = () => {
         ))}
       </div>
 
-      <div className="border-t-2 pt-4">
+      <div className="pt-4">
       <div className='flex flex-row ml-6'>
           <span>
             <img src={car} alt='' width={20} className='mt-1 ml-6 md:ml-28'/>
           </span>
-        <h2 className="text-xl font-bold ml-2 mb-2">Carrito de Compras</h2>
+        <h2 className="text-[#36180d] text-xl font-bold ml-2 mb-2">Carrito de Compras</h2>
         </div>
         {cart.length === 0 ? (
-          <p className="text-start text-green-700 font-semibold ml-16 md:ml-36">El carrito está vacío</p>
+          <p className="text-start text-[#36180d] font-semibold ml-16 md:ml-36">El carrito está vacío</p>
         ) : (
           <ul className="space-y-4">
             {cart.map((item) => (
               <li key={item.id} className="flex flex-col md:flex-row justify-between items-center">
-                <div className="text-center md:ml-36 md:text-left">
+                <div className="text-[#36180d] text-center md:ml-36 md:text-left">
                   {item.name} - ${item.price} x {item.quantity}
                 </div>
                 <div className="flex items-center mt-2 md:mr-36 md:mt-0">
@@ -136,14 +137,13 @@ const ShoppingCart = () => {
 
           <div className="flex justify-center ">
             <button
-              className="mt-2 px-4 py-2 bg-green-500 text-white rounded hover:bg-green-700 w-full md:w-auto"
+              className="mt-2 px-4 py-2 bg-green-500 text-white rounded hover:bg-green-700 w-full md:w-auto mb-10"
               onClick={sendOrder}
             >
               Enviar Pedido por WhatsApp
             </button>
           </div>
 
-          {/* Mostrar mensaje de error si el carrito está vacío */}
           {showError && (
             <div className="text-red-500 text-center font-bold mt-4">
               No puedes enviar un pedido con el carrito vacío.
@@ -152,6 +152,7 @@ const ShoppingCart = () => {
         </div>
       </div>
     </div>
+    </section>
   );
 };
 

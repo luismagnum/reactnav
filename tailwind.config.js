@@ -9,10 +9,10 @@ export default {
   theme: {
     extend: {
       colors: {
-        primary:"#2b9de6",
-        primaryDark:"#124175",
-        darkGray:"#1a1f25",
-        lightGray:"#272c35",
+        primary: "#FFC107", // Amarillo dorado
+        secondary: "#D32F2F", // Rojo intenso
+        accent: "#8D6E63", // Marrón tostado
+        fresh: "#4CAF50", // Verde oliva
       },
       container:{
         center:true,

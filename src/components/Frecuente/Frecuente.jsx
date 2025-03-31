@@ -25,13 +25,14 @@ const Frecuente = () => {
     setActive(index === active ? null: index);
   };
   return (
-    <div className='max-w-5xl mx-auto mt-20 mb-28 px-6 md:px-8 py-4'>
-      <h1 className='text-3xl text-gray-800 text-center font-bold pb-8'>Preguntas frecuentes</h1>
+    <section className="bg-[#f1d06b]">
+    <div className='max-w-5xl mx-auto mt-6 mb-28 px-6 md:px-8 py-4'>
+      <h1 className='text-3xl text-[#36180d] text-center font-bold pb-8'>Preguntas frecuentes</h1>
      {faqData.map((item, index) =>(
         <div key={index}>
             <div className="flex justify-between items-center cursor-pointer py-4" 
             onClick={() => handleClick(index)}>
-                <h3 className='text-sm md:text-xl font-semibold text-gray-800'>{item.question}</h3>
+                <h3 className='text-sm md:text-xl font-semibold text-[#36180d]'>{item.question}</h3>
                 <span>{active == index ? "-" : "+"}</span>
             </div>
             {active == index && <p className='text-black'>{item.awnser}</p>}
@@ -39,7 +40,8 @@ const Frecuente = () => {
      ))}
 
     </div>
+    </section>
   )
 }
 
-export default Frecuente
+export default Frecuente;

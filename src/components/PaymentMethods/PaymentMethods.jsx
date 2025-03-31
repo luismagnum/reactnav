@@ -1,24 +1,19 @@
-import React from 'react';
-import mercadoPagoLogo from '../../assets/mercado_pago.png';
-import visaLogo from '../../assets/Visa_Logo.png';
-import masterCardLogo from '../../assets/mastercard_logo.png';
-import debitLogo from '../../assets/debit_card.png';
-import transferLogo from '../../assets/transfer.png';
+import { SiMercadopago } from "react-icons/si"; 
 
-const PaymentMethods = () => {
+export default function PaymentMethods() {
   return (
-    <div className="max-w-md mx-auto mt-8 p-4 bg-white shadow-md rounded-lg">
-      <h2 className="text-gray-800 text-3xl font-bold text-center mb-4">Métodos de Pago</h2>
-      <h3 className='text-gray-800 text-xl font-bold text-center mt-2 mb-2'>Te enviamos Link o Alias</h3>
-      <div className="flex flex-wrap justify-center gap-4">
-        <img src={visaLogo} alt="Visa" className="h-12 w-auto" />
-        <img src={masterCardLogo} alt="MasterCard" className="h-12 w-auto" />
-        <img src={transferLogo} alt="Transferencias" className="h-12 w-auto" />
-        <img src={debitLogo} alt="Débito" className="h-12 w-auto" />
-        <img src={mercadoPagoLogo} alt="Mercado Pago" className="h-12 w-auto" />
-      </div>
-    </div>
-  );
-};
+    <section className="bg-[#f1d06b]">
+    <div className="max-w-md mx-auto shadow-lg rounded-lg p-6 text-center">
+      <h2 className="text-2xl font-bold text-[#36180d] mb-4">Medios de Pago</h2>
 
-export default PaymentMethods;
+      <div className="flex justify-center mb-4 text-blue-900">
+        <SiMercadopago className="text-7xl" /> 
+      </div>
+
+      <p className="text-lg">
+        Aceptamos pagos a través de <span className="font-semibold text-blue-700">Mercado Pago</span>.
+      </p>
+    </div>
+    </section>
+  );
+}

@@ -17,7 +17,7 @@ const Navar = () => {
   return (
     <div className='fixed w-full z-50'>
       <div>
-        <div className='flex flex-row justify-between p-5 md:px-32 px-5 bg-primary text-white shadow-[0_3px_10px_rgba(0,0,0,0.3)]'>
+        <div className='flex flex-row justify-between p-5 md:px-32 px-5 bg-primary text-[#36180d] font-bold shadow-[0_3px_10px_rgba(0,0,0,0.3)]'>
             <div className='flex flex-row items-center cursor-pointer'>
                 <span>
                     <img src={logo} alt='' width={50}/>
@@ -30,40 +30,32 @@ const Navar = () => {
                  spy={true} 
                  smooth={true} 
                  duration={500} 
-                 className='hover:text-teal-500 transition-all cursor-pointer'>
+                 className='hover:text-white transition-all cursor-pointer'>
                  Home
                  </Link>
                 <Link 
-                 to='Empanadas' 
+                 to='menu' 
                  spy={true} 
                  smooth={true} 
                  duration={500} 
-                 className='hover:text-teal-500 transition-all cursor-pointer'>
-                 Empanadas
+                 className='hover:text-white  transition-all cursor-pointer'>
+                 Menu
                  </Link>
                 <Link 
-                 to='product'
+                 to='shoppingcart'
                  spy={true} 
                  smooth={true} 
                  duration={500} 
-                 className='hover:text-teal-500 transition-all cursor-pointer'>
-                 Tequeños
+                 className='hover:text-white  transition-all cursor-pointer'>
+                 Pedidos
                 </Link>
                 <Link 
-                 to='mini' 
+                 to='footer' 
                  spy={true} 
                  smooth={true} 
                  duration={500} 
-                 className='hover:text-teal-500 transition-all cursor-pointer'>
-                 Mini
-                </Link>
-                <Link 
-                 to='price' 
-                 spy={true} 
-                 smooth={true} 
-                 duration={500} 
-                 className='hover:text-teal-500 transition-all cursor-pointer'>
-                 Precios
+                 className='hover:text-white  transition-all cursor-pointer'>
+                 Contacto
                 </Link>
 
             </nav>
@@ -75,51 +67,42 @@ const Navar = () => {
                 )}
             </div>
         </div>
-        <div className={`${menu ? "translate-x-0" : "-translate-x-full"} lg:hidden flex flex-col absolute bg-primary text-white left-0 top-16 font-semibold text-2xl text-center pt-8 pb-4 gap-8 w-full h-fit transition-transform duration-300`}>
+        <div className={`${menu ? "translate-x-0" : "-translate-x-full"} lg:hidden flex flex-col absolute bg-primary text-[#36180d] left-0 top-16 font-semibold text-2xl text-center pt-8 pb-4 gap-8 w-full h-fit transition-transform duration-300`}>
         <Link
                  to='home'
                  spy={true} 
                  smooth={true} 
                  duration={500} 
-                 className='hover:text-teal-500 transition-all cursor-pointer'
+                 className='hover:text-white transition-all cursor-pointer'
                  onClick={closeMenu}>
                  Home
                  </Link>
                  <Link 
-                 to='Empanadas' 
+                 to='menu' 
                  spy={true} 
                  smooth={true} 
                  duration={500} 
-                 className='hover:text-teal-500 transition-all cursor-pointer'
+                 className='hover:text-white  transition-all cursor-pointer'
                  onClick={closeMenu}>
-                 Empanadas
+                 Menu
                  </Link>
                 <Link 
-                 to='product'
+                 to='shoppingcart'
                  spy={true} 
                  smooth={true} 
                  duration={500} 
-                 className='hover:text-teal-500 transition-all cursor-pointer'
+                 className='hover:text-white  transition-all cursor-pointer'
                  onClick={closeMenu}>
-                 Tequeños
+                 Pedidos
                 </Link>
                 <Link 
-                 to='mini' 
+                 to='footer' 
                  spy={true} 
                  smooth={true} 
                  duration={500} 
-                 className='hover:text-teal-500 transition-all cursor-pointer'
+                 className='hover:text-white  transition-all cursor-pointer'
                  onClick={closeMenu}>
-                 Mini
-                </Link>
-                <Link 
-                 to='price' 
-                 spy={true} 
-                 smooth={true} 
-                 duration={500} 
-                 className='hover:text-teal-500 transition-all cursor-pointer'
-                 onClick={closeMenu}>
-                  Precios
+                 Contacto
                 </Link>
         </div>
       </div>
