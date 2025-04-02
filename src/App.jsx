@@ -8,7 +8,7 @@ import Navar from './components/Navar/Navar'
 import PaymentMethods from './components/PaymentMethods/PaymentMethods'
 import ShoppingCart from './components/ShoppingCart/ShoppingCart'
 import TextSlider from './components/slide/TextSlider'
-import Menu from './components/menu/Menu' 
+import Menu from './components/menu/Menu'
 
 function App() {
   return (
