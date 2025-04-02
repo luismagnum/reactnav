@@ -12,35 +12,42 @@ const menuItems = [
     id: 2,
     name: "Empanadas",
     description: "Rellenas de carne y de pollo con queso 12u.",
-    price: "$18.000",
+    price: "$20.000",
     image: "/empa.jpg",
   },
   {
     id: 3,
     name: "MiniCombo",
     description: "2 empanadas de carne 2 empanadas de pollo 4 tequeños 1 salsa ajo",
-    price: "$14.000",
+    price: "$18.000",
     image: "/combomini.jpg",
   },
   {
     id: 4,
     name: "Combo Tropical",
     description: "2 empanadas de carne 2 empanadas de pollo 4 tequeños 1 salsa ajo",
-    price: "$16.000",
+    price: "$20.000",
     image: "/combotro.jpg",
   },
   {
     id: 5,
     name: "Combo Familiar",
     description: "4 empanadas de carne 4 empanadas de pollo 10 tequeños 2 salsa ajo",
-    price: "$24.000",
+    price: "$28.000",
     image: "/combofa.jpg",
   },
   {
     id: 6,
+    name: "Maxi Combo",
+    description: "6 empanadas de carne 6 empanadas de pollo 6 tequeños 2 salsa ajo",
+    price: "$30.000",
+    image: "/maxi.jpg",
+  },
+  {
+    id: 7,
     name: "Tequeño Fiestero",
     description: "50 mini tequeños de queso congelados listos para freir",
-    price: "$19.000",
+    price: "$22.000",
     image: "/mini.jpg",
   },
 ];
@@ -53,7 +60,7 @@ export default function Menu() {
         <span>
             <img src={logo} alt='' width={50}/>
         </span>
-        <h1 className="text-[#36180d] text-xl md:text-3xl font-bold mb-4 text-center m-4">Nuestro Menu</h1>
+        <h1 className="text-[#36180d] text-2xl md:text-3xl font-bold mb-4 text-center m-4">Nuestro Menu</h1>
     </div>
 
       <div className="space-y-4">

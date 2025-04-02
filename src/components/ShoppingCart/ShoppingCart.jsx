@@ -7,12 +7,13 @@ const ShoppingCart = () => {
   const [showError, setShowError] = useState(false); 
 
   const products = [
-    { id: 1, name: 'Empanadas', price: 18000 },
+    { id: 1, name: 'Empanadas', price: 20000 },
     { id: 2, name: 'Tequeños', price: 12000 },
-    { id: 3, name: 'Combo Familiar', price: 24000 },
-    { id: 4, name: 'Combo Tropical', price: 16000 },
-    { id: 5, name: 'Combo Mini', price: 14000 },
-    { id: 6, name: 'TequeñoFiesta', price: 19000 },
+    { id: 3, name: 'Combo Mini', price: 18000 },
+    { id: 4, name: 'Combo Tropical', price: 20000 },
+    { id: 5, name: 'Combo Familiar', price: 28000 },
+    { id: 6, name: 'Combo Maxi', price: 30000 },
+    { id: 7, name: 'TequeñoFiesta', price: 22000 },
   ];
   
   const addToCart = (product) => {
@@ -73,7 +74,7 @@ const ShoppingCart = () => {
                 <span>
                     <img src={logo} alt='' width={50}/>
                 </span>
-      <h1 className="text-[#36180d] text-xl md:text-3xl font-bold mb-4 text-center m-4">Sabores de Venezuela</h1>
+      <h1 className="text-[#36180d] text-2xl md:text-3xl font-bold mb-4 text-center m-4">Sabores de Venezuela</h1>
       </div>
       <h2 className="text-[#36180d] text-xl font-bold mb-6 text-center mt-2">Calcular tu pedido</h2>
       

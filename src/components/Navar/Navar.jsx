@@ -22,7 +22,7 @@ const Navar = () => {
                 <span>
                     <img src={logo} alt='' width={50}/>
                 </span>
-                <h1 className='text-xl font-semibold'>Sabores de Venezuela</h1>
+                <h1 className='text-2xl font-semibold'>Sabores de Venezuela</h1>
             </div>
             <nav className='hidden md:flex flex-row items-center text-lg font-medium gap-8'>
                 <Link

@@ -27,7 +27,7 @@ const Frecuente = () => {
   return (
     <section className="bg-[#f1d06b]">
     <div className='max-w-5xl mx-auto mt-6 mb-28 px-6 md:px-8 py-4'>
-      <h1 className='text-3xl text-[#36180d] text-center font-bold pb-8'>Preguntas frecuentes</h1>
+      <h1 className='text-2xl md:text-3xl text-[#36180d] text-center font-bold pb-8'>Preguntas frecuentes</h1>
      {faqData.map((item, index) =>(
         <div key={index}>
             <div className="flex justify-between items-center cursor-pointer py-4" 

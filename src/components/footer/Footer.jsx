@@ -13,7 +13,7 @@ const Footer = () => {
                 <span>
                     <img src={logo} alt='' width={50}/>
                 </span>
-      <h1 className="text-[#36180d] text-xl md:text-3xl font-bold mb-4 text-center m-4">Sabores de Venezuela</h1>
+      <h1 className="text-[#36180d] text-2xl md:text-3xl font-bold mb-4 text-center m-4">Sabores de Venezuela</h1>
       </div>
       <div className='md:flex md:justify-between md:items-center sm:px-12 px-4 bg-[#36180d] py-4 '>
         <h1 className='ml-4 md:ml-20 lg:text-4xl text-3xl md:mb-0 mb-6 lg:leading-normal font-semibold md:w-2/5'>
