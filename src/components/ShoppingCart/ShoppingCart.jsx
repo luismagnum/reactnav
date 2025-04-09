@@ -9,11 +9,12 @@ const ShoppingCart = () => {
   const products = [
     { id: 1, name: 'Empanadas', price: 20000 },
     { id: 2, name: 'Tequeños', price: 12000 },
-    { id: 3, name: 'Combo Mini', price: 18000 },
-    { id: 4, name: 'Combo Tropical', price: 20000 },
-    { id: 5, name: 'Combo Familiar', price: 28000 },
-    { id: 6, name: 'Combo Maxi', price: 30000 },
-    { id: 7, name: 'TequeñoFiesta', price: 22000 },
+    { id: 3, name: 'MasTequeños', price: 26000 },
+    { id: 4, name: 'Combo Mini', price: 18000 },
+    { id: 5, name: 'Combo Tropical', price: 20000 },
+    { id: 6, name: 'Combo Familiar', price: 28000 },
+    { id: 7, name: 'Combo Maxi', price: 30000 },
+    { id: 8, name: 'TequeñoFiesta', price: 22000 },
   ];
   
   const addToCart = (product) => {
@@ -68,7 +69,7 @@ const ShoppingCart = () => {
   };
 
   return (
-    <section className="bg-[#f1d06b]">
+    <section className="bg-gray-100">
     <div className="text-center items-center max-w-5xl mx-auto mt-6 px-8 md:px-6 mb-6">
       <div className="flex flex-col md:flex-row justify-center items-center text-center mx-auto mb-6">
                 <span>
