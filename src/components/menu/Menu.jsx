@@ -12,7 +12,7 @@ const menuItems = [
     id: 2,
     name: "Mas Tequeños",
     description: "Rellenos de queso y de Jamon con Queso 24u y 2 salsas de ajo.",
-    price: "$26.000",
+    price: "$24.000",
     image: "/teque.jpg",
   },
   {
