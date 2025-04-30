@@ -17,7 +17,7 @@ const Navar = () => {
   return (
     <div className='fixed w-full z-50'>
       <div>
-        <div className='flex flex-row justify-between p-5 md:px-32 px-5 bg-primary text-[#36180d] font-bold shadow-[0_3px_10px_rgba(0,0,0,0.3)]'>
+        <div className='flex flex-row justify-between p-5 md:px-32 px-5 bg-gradient-to-tr from-yellow-400 to-red-500 text-white font-bold shadow-[0_3px_10px_rgba(0,0,0,0.3)]'>
             <div className='flex flex-row items-center cursor-pointer'>
                 <span>
                     <img src={logo} alt='' width={50}/>
@@ -30,7 +30,7 @@ const Navar = () => {
                  spy={true} 
                  smooth={true} 
                  duration={500} 
-                 className='hover:text-white transition-all cursor-pointer'>
+                 className='hover:text-yellow-300 transition-all cursor-pointer'>
                  Home
                  </Link>
                 <Link 
@@ -38,7 +38,7 @@ const Navar = () => {
                  spy={true} 
                  smooth={true} 
                  duration={500} 
-                 className='hover:text-white  transition-all cursor-pointer'>
+                 className='hover:text-yellow-300  transition-all cursor-pointer'>
                  Menu
                  </Link>
                 <Link 
@@ -46,7 +46,7 @@ const Navar = () => {
                  spy={true} 
                  smooth={true} 
                  duration={500} 
-                 className='hover:text-white  transition-all cursor-pointer'>
+                 className='hover:text-yellow-300 transition-all cursor-pointer'>
                  Pedidos
                 </Link>
                 <Link 
@@ -54,7 +54,7 @@ const Navar = () => {
                  spy={true} 
                  smooth={true} 
                  duration={500} 
-                 className='hover:text-white  transition-all cursor-pointer'>
+                 className='hover:text-yellow-300  transition-all cursor-pointer'>
                  Contacto
                 </Link>
 
@@ -67,7 +67,7 @@ const Navar = () => {
                 )}
             </div>
         </div>
-        <div className={`${menu ? "translate-x-0" : "-translate-x-full"} lg:hidden flex flex-col absolute bg-primary text-[#36180d] left-0 top-16 font-semibold text-2xl text-center pt-8 pb-4 gap-8 w-full h-fit transition-transform duration-300`}>
+        <div className={`${menu ? "translate-x-0" : "-translate-x-full"} lg:hidden flex flex-col absolute bg-white text-[#15225b] left-0 top-16 font-semibold text-2xl text-center pt-8 pb-4 gap-8 w-full h-fit transition-transform duration-300`}>
         <Link
                  to='home'
                  spy={true} 

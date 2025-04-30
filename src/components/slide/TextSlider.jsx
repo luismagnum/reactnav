@@ -1,4 +1,3 @@
-// src/components/TextSlider.js
 import React, { useEffect, useRef } from 'react';
 import './TextSlider.css'; 
 
@@ -13,14 +12,14 @@ const TextSlider = () => {
   }, []);
 
   return (
-    <div className="overflow-hidden whitespace-nowrap relative w-full bg-[#f1d06b]">
+    <div className="overflow-hidden whitespace-nowrap relative w-full bg-[#fff]">
       <div
         ref={sliderRef}
         className="flex text-lg animate-marquee"
       >
-        <span className="text-[#36180d] font-bold mx-4">tequeño queso</span>
-        <span className="text-[#36180d] font-bold mx-4">queso y jamon</span>
-        <span className="text-[#36180d] font-bold mx-4">tequeños</span>
+        <span className="text-[#15225b] font-bold mx-4">tequeño queso</span>
+        <span className="text-[#15225b] font-bold mx-4">queso y jamon</span>
+        <span className="text-[#15225b] font-bold mx-4">tequeños</span>
       </div>
     </div>
   );

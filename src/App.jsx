@@ -1,7 +1,7 @@
 import './App.css'
 import Boton from './components/Boton'
 import Delivery from './components/Delivery'
-import Footer from './components/footer/Footer'
+import Foter from './components/foter/Foter'
 import Frecuente from './components/Frecuente/Frecuente'
 import Hero from './components/Hero/Hero'
 import Navar from './components/Navar/Navar'
@@ -28,7 +28,7 @@ function App() {
       <Delivery />
       <Frecuente />
       <div id='footer'>
-      <Footer />
+      <Foter />
       </div>
       <Boton />
     </main>

@@ -15,8 +15,8 @@ const bgImage = {
 const Hero = () => {
   return (
     <main style={bgImage}>
-      <div className='bg-gradient-to-r from-primary to bg-primaryDark/80'>
-        <div className="container text-[#36180d]">
+      <div className='bg-gradient-to-r from-white to bg-primaryDark/80'>
+        <div className="container text-[#15225b]">
             <section className='grid grid-cols-1 md:grid-cols-2 place-items-center min-h-[700px]'>
                 <div className='space-y-8 mt-[100px] md:mt-[2px]'>
                 <motion.h1
@@ -32,7 +32,7 @@ const Hero = () => {
                 className='text-5xl lg:text-7xl font-bold leading-tight uppercase'>
                     Sabores de <br/>{""}
                     <span className='
-                     text-[#36180d] text-outline'>
+                     text-[#15225b] text-outline'>
                      Venezuela
                      </span> 
                 </motion.h1>
@@ -46,16 +46,16 @@ const Hero = () => {
         delay: 1,
         damping: 10,
       }}
-      className="flex items-center gap-4 rounded-lg bg-[#36180d] px-6 py-3 transition-all shadow-md"
+      className="flex items-center gap-4 rounded-lg bg-[#ef2f2f] px-6 py-3 transition-all shadow-md"
     >
       <a
         href="https://wa.me/542984792639?text=Hola quiero hacer un pedido"
         target="_blank"
         rel="noopener noreferrer"
-        className="flex items-center gap-3 text-2xl text-[#FFC107] hover:text-white"
+        className="flex items-center gap-3 text-2xl text-[#fff] hover:text-white"
       >
         Encargar
-        <BsWhatsapp className="text-[#FFC107] size-8 group-hover:translate-x-2 transition" />
+        <BsWhatsapp className="text-[#fff] size-8 group-hover:translate-x-2 transition" />
       </a>
       </motion.button>
                 </div>

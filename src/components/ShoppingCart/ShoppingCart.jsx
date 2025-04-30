@@ -75,17 +75,17 @@ const ShoppingCart = () => {
                 <span>
                     <img src={logo} alt='' width={50}/>
                 </span>
-      <h1 className="text-[#36180d] text-2xl md:text-3xl font-bold mb-4 text-center m-4">Sabores de Venezuela</h1>
+      <h1 className="text-[#15225b] text-2xl md:text-3xl font-bold mb-4 text-center m-4">Sabores de Venezuela</h1>
       </div>
-      <h2 className="text-[#36180d] text-xl font-bold mb-6 text-center mt-2">Calcular tu pedido</h2>
+      <h2 className="text-[#15225b] text-xl font-bold mb-6 text-center mt-2">Calcular tu pedido</h2>
       
       <div className="grid grid-cols-1 p-2 md:grid-cols-3 gap-4 mb-6">
         {products.map((product) => (
           <div key={product.id} className=" rounded-lg text-center">
-            <h2 className="text-[#36180d] text-xl font-bold">{product.name}</h2>
-            <p className="text-[#36180d] font-semibold">${product.price}</p>
+            <h2 className="text-gray-800 text-xl font-bold">{product.name}</h2>
+            <p className="text-gray-800 font-semibold">${product.price}</p>
             <button
-              className="mt-2 px-4 py-2 bg-[#36180d] text-[#FFC107] font-bold rounded-lg hover:text-white"
+              className="mt-2 px-4 py-2 bg-[#ef2f2f] text-[#fff] font-bold rounded-lg hover:text-[#ef2f2f] hover:bg-[#fff] hover:border-2 hover:border-[#ef2f2f] transition duration-300"
               onClick={() => addToCart(product)}
             >
               Añadir al carrito
@@ -99,15 +99,15 @@ const ShoppingCart = () => {
           <span>
             <img src={car} alt='' width={20} className='mt-1 ml-6 md:ml-28'/>
           </span>
-        <h2 className="text-[#36180d] text-xl font-bold ml-2 mb-2">Carrito de Compras</h2>
+        <h2 className="text-[#15225b] text-xl font-bold ml-2 mb-2">Carrito de Compras</h2>
         </div>
         {cart.length === 0 ? (
-          <p className="text-start text-[#36180d] font-semibold ml-16 md:ml-36">El carrito está vacío</p>
+          <p className="text-start text-[#15225b] font-semibold ml-16 md:ml-36">El carrito está vacío</p>
         ) : (
           <ul className="space-y-4">
             {cart.map((item) => (
               <li key={item.id} className="flex flex-col md:flex-row justify-between items-center">
-                <div className="text-[#36180d] text-center md:ml-36 md:text-left">
+                <div className="text-gray-800 text-center md:ml-36 md:text-left">
                   {item.name} - ${item.price} x {item.quantity}
                 </div>
                 <div className="flex items-center mt-2 md:mr-36 md:mt-0">

@@ -61,13 +61,13 @@ const menuItems = [
 
 export default function Menu() {
   return (
-    <section className="bg-[#f1d06b]">
+    <section className="bg-[#fff]">
     <div className="max-w-4xl mx-auto mt-6 p-4">
     <div className="flex flex-col md:flex-row justify-center items-center text-center mx-auto mb-6">
         <span>
             <img src={logo} alt='' width={50}/>
         </span>
-        <h1 className="text-[#36180d] text-2xl md:text-3xl font-bold mb-4 text-center m-4">Nuestro Menu</h1>
+        <h1 className="text-[#15225b] text-2xl md:text-3xl font-bold mb-4 text-center m-4">Nuestro Menu</h1>
     </div>
 
       <div className="space-y-4">
