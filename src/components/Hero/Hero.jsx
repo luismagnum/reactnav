@@ -46,7 +46,7 @@ const Hero = () => {
         delay: 1,
         damping: 10,
       }}
-      className="flex items-center gap-4 rounded-lg bg-[#ef2f2f] px-6 py-3 transition-all shadow-md"
+      className="flex items-center gap-4 rounded-lg bg-[#ef2f2f] px-4 py-2 transition-all shadow-md"
     >
       <a
         href="https://wa.me/542984792639?text=Hola quiero hacer un pedido"

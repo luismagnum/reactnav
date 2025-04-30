@@ -8,7 +8,7 @@ const Footer = () => {
         {/* Título y mensaje */}
         <div>
           <h2 className="text-3xl font-bold mb-2">Sabores de Venezuela</h2>
-          <p className="text-base">Listo para hacer tu pedido...</p>
+          <p className="text-2xl">Listo para hacer tu pedido...</p>
         </div>
 
         {/* Botón WhatsApp */}
@@ -27,7 +27,7 @@ const Footer = () => {
         </div>
 
         {/* Info adicional */}
-        <div className="text-sm space-y-2">
+        <div className="text-base space-y-2">
           <p className="flex items-center justify-center md:justify-start">
             <FaMapMarkerAlt className="mr-2" /> Villa Regina, Argentina
           </p>
