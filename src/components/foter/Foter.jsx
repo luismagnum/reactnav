@@ -14,12 +14,12 @@ const Footer = () => {
         {/* Botón WhatsApp */}
         <div className="flex flex-col items-center md:items-start">
           <p className="text-lg font-semibold mb-2 flex items-center">
-            <FaWhatsapp className="mr-2" /> 
+            <FaWhatsapp className="mr-2 size-8 text-white font-bold" /> 
             <a 
               href="https://wa.me/5492984792639" 
               target="_blank" 
               rel="noopener noreferrer"
-              className="underline hover:text-gray-200 transition"
+              className="bg-[#ef2f2f] px-2 py-3 rounded-2xl last:underline hover:text-red-800 transition"
             >
               Click aquí
             </a>
@@ -36,7 +36,7 @@ const Footer = () => {
           </p>
           <p className="flex items-center justify-center md:justify-start">
             <FaHome className="mr-2" />
-            <a href="/" className="underline hover:text-gray-200 transition">Home</a>
+            <a href="/" className="text-2xl underline hover:text-gray-200 transition">Home</a>
           </p>
         </div>
       </div>
