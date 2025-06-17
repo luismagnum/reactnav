@@ -1,21 +1,33 @@
-import React from 'react'
 import deliv from '../assets/moto.png'
 
 const Delivery = () => {
   return (
-    <section className="bg-[#fff]">
-        <div className='flex flex-col lg:flex-row justify-center items-center lg:px-32 px-5 mx-4 mb-8'>
-      <img src={deliv} alt='img2'width={400}/>
-      <div className='space-y-4 lg:pt-0 mx-4'>
-        <h1 className='text-[#15225b] font-bold text-2xl md:text-3xl text-start'>Delivery Express</h1>
-        <p className='text-base mt-4 md:text-xl text-gray-800 font-medium text-justify'>
-        "Contamos con un servicio de delivery, para llevar nuestros productos a la puerta de tu casa.
-         Realizamos envios a Villa Regina y alrededores."
-        </p>
+    <section className="bg-white py-10">
+      <div className="container mx-auto px-4">
+        <div className="flex flex-col-reverse lg:flex-row items-center justify-center gap-10">
+          
+          <div className="text-center lg:text-left max-w-xl">
+            <h1 className="text-[#15225b] font-bold text-3xl md:text-4xl mb-4">
+              Delivery Express
+            </h1>
+            <p className="text-gray-700 text-base md:text-lg font-medium leading-relaxed">
+              Contamos con un servicio de delivery para llevar nuestros productos a la puerta de tu casa.
+              <br />
+              Realizamos envíos a Villa Regina y alrededores.
+            </p>
+          </div>
+
+          <div className="flex-shrink-0">
+            <img
+              src={deliv}
+              alt="Delivery"
+              className="w-52 md:w-64 lg:w-72 object-contain"
+            />
+          </div>
         </div>
       </div>
     </section>
-  )
-}
+  );
+};
 
 export default Delivery;

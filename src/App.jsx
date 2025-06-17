@@ -3,6 +3,7 @@ import Boton from './components/Boton'
 import Delivery from './components/Delivery'
 import Foter from './components/foter/Foter'
 import Frecuente from './components/Frecuente/Frecuente'
+import Hoario from './components/horario/Horario'
 import Hero from './components/Hero/Hero'
 import Navar from './components/Navar/Navar'
 import PaymentMethods from './components/PaymentMethods/PaymentMethods'
@@ -28,8 +29,9 @@ function App() {
       <Delivery />
       <Frecuente />
       <div id='footer'>
-      <Foter />
       </div>
+      <Hoario />
+      <Foter />
       <Boton />
     </main>
   )

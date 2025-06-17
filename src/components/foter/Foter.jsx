@@ -27,7 +27,7 @@ const Footer = () => {
         </div>
 
         {/* Info adicional */}
-        <div className="text-base space-y-2">
+        <div className="text-xl space-y-2">
           <p className="flex items-center justify-center md:justify-start">
             <FaMapMarkerAlt className="mr-2" /> Villa Regina, Argentina
           </p>
@@ -36,13 +36,12 @@ const Footer = () => {
           </p>
           <p className="flex items-center justify-center md:justify-start">
             <FaHome className="mr-2" />
-            <a href="/" className="text-2xl underline hover:text-gray-200 transition">Home</a>
+            <a href="/" className="text-2xl text-[#15225b] font-bold underline hover:text-gray-200 transition">Home</a>
           </p>
         </div>
       </div>
 
-      {/* Línea inferior */}
-      <div className="mt-8 border-t border-white/30 pt-4 text-center text-sm opacity-80">
+      <div className="mt-8 border-t border-white/30 pt-4 text-center text-base opacity-80">
         © Sabores de Venezuela 2024
       </div>
     </footer>
