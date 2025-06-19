@@ -9,7 +9,7 @@ const Horario = () => {
         </div>
         <h2 className="text-2xl md:text-3xl font-bold text-[#15225b]  mb-2">Horario de Atención</h2>
         <p className="text-gray-800 text-lg">
-          De <span className="font-semibold">Martes a Sábado</span><br />
+          De <span className="font-semibold">Jueves a Sábado</span><br />
           De <span className="font-semibold">20:00 hs</span> a <span className="font-semibold">23:00 hs</span>
         </p>
       </div>

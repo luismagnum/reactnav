@@ -22,7 +22,7 @@ const Footer = () => {
         </h1>
         <div className='flex items-center justify-center mx-2'>
         <button className="inline-block font-semibold tracking-wide border-none justify-center text-center bg-primary hover:text-teal-500 duration-300 px-3 py-2 font-[Poppins] rounded-lg md:mr-20 md:rounded-md  md: text-white w-full md:w-auto">
-        <a href="https://wa.me/542984792639?text=Hola quiero hacer un pedido" target="_blank" className="flex items-center justify-center space-x-2">
+        <a href="https://wa.me/542984792639?text=Hola quiero hacer un pedido"  target="_blank" className="flex items-center justify-center space-x-2">
         <img src={whatsap} alt="what" width="25px" height="25px" className='flex-shrink-0'/>
         <span className='text-[#36180d] hover:text-white font-bold sm:text-sm md:text-xl'>Click aqui</span>
         </a>

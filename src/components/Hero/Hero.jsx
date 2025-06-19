@@ -1,4 +1,3 @@
-import React from 'react';
 import imag2 from '../../assets/empablanca.png';
 import survey from '../../assets/survey.jpg';
 import { BsWhatsapp } from "react-icons/bs";
@@ -36,32 +35,28 @@ const Hero = () => {
                      Venezuela
                      </span> 
                 </motion.h1>
-                <motion.button
-      initial={{ opacity: 0, y: -100 }}
-      whileInView={{ opacity: 1, y: 0 }}
-      transition={{
-        duration: 0.5,
-        type: "spring",
-        stiffness: 100,
-        delay: 1,
-        damping: 10,
-      }}
-      className="flex items-center gap-4 rounded-lg bg-[#ef2f2f] px-4 py-2 transition-all shadow-md"
-    >
-      <a
-        href="https://wa.me/542984792639?text=Hola quiero hacer un pedido"
-        target="_blank"
-        rel="noopener noreferrer"
-        className="flex items-center gap-3 text-2xl text-[#fff] hover:text-white"
-      >
-        Encargar
-        <BsWhatsapp className="text-[#fff] size-8 group-hover:translate-x-2 transition" />
-      </a>
-      </motion.button>
+                <motion.a
+  href="https://wa.me/5492984792639?text=Hola,%20quiero%20hacer%20un%20pedido"
+  target="_blank"
+  rel="noopener noreferrer"
+  initial={{ opacity: 0, y: -100 }}
+  whileInView={{ opacity: 1, y: 0 }}
+  transition={{
+    duration: 0.5,
+    type: "spring",
+    stiffness: 100,
+    delay: 1,
+    damping: 10,
+  }}
+  className="group inline-flex items-center gap-3 bg-[#25D366] hover:bg-[#1ebe5d] text-white text-lg md:text-xl font-semibold px-6 py-3 rounded-full shadow-lg transition-all duration-300"
+>
+  <BsWhatsapp className="text-white text-2xl group-hover:translate-x-1 transition-transform duration-300" />
+  Encargar
+</motion.a>
                 </div>
                 <div className='relative'>
                     <img src={imag2} alt="imagen2"
-                    className='w-full  rounded-md relative z-30' />
+                    className='w-full rounded-md relative z-30' />
                     <div className='absolute -top-5 left-0 z-[1]'>
                       <h1 className='text-[80px] md:text-[90px] font-bold text-red-200/10 leading-none'>Empanadas</h1>
                     </div>

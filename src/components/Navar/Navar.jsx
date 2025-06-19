@@ -30,7 +30,7 @@ const Navar = () => {
                  spy={true} 
                  smooth={true} 
                  duration={500} 
-                 className='hover:text-yellow-300 transition-all cursor-pointer'>
+                 className='hover:text-[#15225b]  transition-all cursor-pointer'>
                  Home
                  </Link>
                 <Link 
@@ -38,7 +38,7 @@ const Navar = () => {
                  spy={true} 
                  smooth={true} 
                  duration={500} 
-                 className='hover:text-yellow-300  transition-all cursor-pointer'>
+                 className='hover:text-[#15225b]  transition-all cursor-pointer'>
                  Menu
                  </Link>
                 <Link 
@@ -46,7 +46,7 @@ const Navar = () => {
                  spy={true} 
                  smooth={true} 
                  duration={500} 
-                 className='hover:text-yellow-300 transition-all cursor-pointer'>
+                 className='hover:text-[#15225b] transition-all cursor-pointer'>
                  Pedidos
                 </Link>
                 <Link 
@@ -54,7 +54,7 @@ const Navar = () => {
                  spy={true} 
                  smooth={true} 
                  duration={500} 
-                 className='hover:text-yellow-300  transition-all cursor-pointer'>
+                 className='hover:text-[#15225b]   transition-all cursor-pointer'>
                  Contacto
                 </Link>
 
