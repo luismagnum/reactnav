@@ -12,7 +12,7 @@ const ShoppingCart = () => {
     { id: 3, name: 'TequeñoFiesta', price: 22000 },
     { id: 4, name: 'Combo Mini', price: 13000 },
     { id: 5, name: 'Combo Tropical', price: 19000 },
-    { id: 6, name: 'Combo Familiar', price: 28000 },
+    { id: 6, name: 'Combo Familiar', price: 30000 },
     { id: 7, name: 'Combo Maxi', price: 32000 },
     { id: 8, name: 'Combo Mega', price: 37000 },
   ];
