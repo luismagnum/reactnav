@@ -39,8 +39,8 @@ const menuItems = [
   {
     id: 6,
     name: "Combo Familiar",
-    description: "9 empanadas, 10 tequeños 2 salsa ajo",
-    price: "$30.000",
+    description: "4 empanadas de carne 4 empanadas de pollo 10 tequeños 2 salsa ajo",
+    price: "$28.000",
     image: "/combofa.jpg",
   },
   {
