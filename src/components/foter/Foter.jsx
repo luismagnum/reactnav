@@ -16,7 +16,7 @@ const Footer = () => {
           <p className="text-lg font-semibold mb-2 flex items-center">
             <FaWhatsapp className="mr-2 size-8 text-white font-bold" /> 
             <a 
-              href="https://wa.me/5492984792639" 
+              href="https://wa.me/5492984792639?text=Hola,%20quiero%20hacer%20un%20pedido"
               target="_blank" 
               rel="noopener noreferrer"
               className="bg-[#ef2f2f] px-2 py-3 rounded-2xl last:underline hover:text-red-800 transition"
