@@ -5,7 +5,6 @@ const Footer = () => {
     <footer className="bg-gradient-to-tr from-yellow-400 to-red-500 text-white py-10 px-6 mt-10">
       <div className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-8 text-center md:text-left">
         
-        {/* Título y mensaje */}
         <div>
           <h2 className="text-3xl font-bold mb-2">Sabores de Venezuela</h2>
           <p className="text-2xl">Listo para hacer tu pedido...</p>
