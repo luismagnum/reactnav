@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import {Link} from "react-scroll";
 import { IoClose } from "react-icons/io5";
 import { TiThMenu } from "react-icons/ti";
-import logo from '../../assets/logo.svg';
+import logo from '../../assets/logonew.png';
 
 const Navar = () => {
   const [menu, setMenu] = useState(false);
@@ -22,7 +22,7 @@ const Navar = () => {
                 <span>
                     <img src={logo} alt='' width={50}/>
                 </span>
-                <h1 className='text-2xl font-semibold'>Sabores de Venezuela</h1>
+                <h1 className='text-2xl ml-2 font-semibold'>Sabores de Venezuela</h1>
             </div>
             <nav className='hidden md:flex flex-row items-center text-lg font-medium gap-8'>
                 <Link
