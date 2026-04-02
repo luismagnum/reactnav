@@ -7,14 +7,14 @@ const ShoppingCart = () => {
   const [showError, setShowError] = useState(false); 
 
   const products = [
-    { id: 1, name: 'Empanadas', price: 27000 },
-    { id: 2, name: 'Tequeños', price: 15000 },
-    { id: 3, name: 'TequeñoFiesta', price: 25000 },
-    { id: 4, name: 'Combo Mini', price: 16500 },
-    { id: 5, name: 'Combo Tropical', price: 21000 },
-    { id: 6, name: 'Combo Familiar', price: 30500 },
-    { id: 7, name: 'Combo Maxi', price: 34500 },
-    { id: 8, name: 'Combo Mega', price: 42000 },
+    { id: 1, name: 'Empanadas', price: 30000 },
+    { id: 2, name: 'Tequeños', price: 18000 },
+    { id: 3, name: 'TequeñoFiesta', price: 30000 },
+    { id: 4, name: 'Mini Combo', price: 19500 },
+    { id: 5, name: 'Combo Tropical', price: 25000 },
+    { id: 6, name: 'Combo Familiar', price: 35000 },
+    { id: 7, name: 'Maxi Combo', price: 38000 },
+    { id: 8, name: 'Mega Combo', price: 46000 },
   ];
   
   const addToCart = (product) => {
